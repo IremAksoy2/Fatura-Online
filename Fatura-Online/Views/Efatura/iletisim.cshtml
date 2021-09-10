@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "iletisim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section id="contact">
+
+    <div class="container">
+
+            <div>
+                <h4 style="padding: 50px  50px; font-size: 35px; text-align:center;"> SİZE ULAŞALIM</h4>
+            </div>
+
+            <div class="col-md-4">
+
+            <div id="map-canvas">
+                <iframe style="width:100%; height:300px; margin-top:30px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.6605690936153!2d31.170095215262524!3d40.90126003395237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409d7558c6d29949%3A0x332d4e256b968190!2sBilsoft!5e0!3m2!1str!2str!4v1621942997800!5m2!1str!2str"></iframe>
+            </div>
+            </div>
+            <center>
+
+
+                <div class="col-md-4">
+                    <h3>MAİL GÖNDER</h3>
+
+                    <form method="post" role="form" id="form" class="php-email-form" action="contact.php">
+                        <div class="form-group">
+                            <input name="name" type="text" class="form-control" id="name" required="required" placeholder="AD SOYAD">
+                        </div>
+
+                        <div class="form-group">
+                            <input name="email" type="email" class="form-control" id="email" required="required" placeholder="EMAIL">
+                        </div>
+
+                        <textarea name="message" type="text" class="form-control" id="message" rows="5" required="required" placeholder="MESAJ"></textarea>
+                        <div class="text-center"><button type="button" id="btnGonder"> Gönder</button></div>
+                    </form>
+                </div>
+            </center>
+         
+            <div class="col-md-4">
+            <h3>İLETİŞİM</h3>
+            <p>
+                Düzce Üniversitesi Teknopark Orhangazi Mah. Teknopark Cad. No:1 Kat:2 Merkez/DÜZCE    <br>
+            </p>
+
+            <p>
+                <strong>Telefon</strong> 0850 611 0667
+
+            </p>
+
+            <p>
+                bilgi@fatura-online.com
+
+            </p>
+
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.facebook.com/faturaonlinecom/?ref=pages_you_manage"><i class="ion-social-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/fatura_online"><i class="ion-social-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/fatura-online-0a3b73218/"><i class="ion-social-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_faturaonline/"><i class="ion-social-instagram"></i></a>
+                </li>
+
+            </ul>
+
+            </div>
+        </div>
+</section>
+ <!-- /#contact -->
+<!-- end: contact section-->
+<!-- start: footer -->
+<section id="footer">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+
+
+
+                <div class="col-md-5 footer-item">
+                    <h4>Sayfa LİNKLERİ</h4>
+                    <ul class="menu-list">
+                        <li><a href="/Efatura/Index" title="Anasayfa">Anasayfa</a></li>
+                        <li><a href="/Efatura/#about" title="Kampanyalar">Hakkında</a></li>
+                        <li><a href="/Efatura/#services" title="Özellikler">Özellikler</a></li>
+
+                        <li><a href="/Efatura/deneme" title="deneme">Özellikler</a></li>
+
+
+                        <li><a href="/Efatura/Kampanyalar" title="Kampanyalar">Kampanyalar</a></li>
+                        <li><a href="/Efatura/#faq" title="SSS">Sıkça Sorulan Sorular</a></li>
+                        <li><a href="/Efatura/#blog" title="Destek">Blog</a></li>
+                        <li><a href="/Efatura/#contact" title="İletişim">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 footer-item">
+                    <h4>ÖZELLİKLER</h4>
+                    <ul class="menu-list">
+                        <li><a href="/Efatura/#services" title="efatura modül">Fatura Modülü</a></li>
+                        <li><a href="/Efatura/#services" title="efatura cari kart">Cari Kart Modülü</a></li>
+                        <li><a href="/Efatura/#services" title="efatura stok">Stok Takibi Modülü</a></li>
+                        <li><a href="/Efatura/#services" title="efatura rapoarlama">Raporlama sistemi</a></li>
+                        <li><a href="/Efatura/#services" title="efatura arşivleme">Arşivleme</a></li>
+                        <li><a href="/Efatura/#services" title="efatura gönderme">Gönderme</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                © Copyright <strong><span>ONLINEFATURA</span></strong>. Tüm Hakları Saklıdır. ONLINEFATURA bir <a id="ayri" href="https://www.bilsoft.com/" title="www.bilsoft.com"> Bilsoft Yazılım </a>  Kuruluşudur. &nbsp;<a href="/Efatura/KVKK" title="Kullanım Şartları"<strong><span>Çerez Politikası</span></a><strong />
+            </div>
+        </div>
+    </footer>
+
+</section>
+<!-- end: footer -->
